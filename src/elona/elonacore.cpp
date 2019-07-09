@@ -10752,7 +10752,7 @@ void proc_weapon_enchantments()
         {
             break;
         }
-        enc = inv[cw].enchantments[cnt].id;
+        int enc = inv[cw].enchantments[cnt].id;
         if (enc == 36)
         {
             p = rnd(inv[cw].enchantments[cnt].power / 50 + 1) + 1;

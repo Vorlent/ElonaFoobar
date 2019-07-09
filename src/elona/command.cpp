@@ -948,7 +948,7 @@ TurnResult do_change_ammo_command()
         {
             break;
         }
-        enc = inv[ci].enchantments[cnt].id;
+        int enc = inv[ci].enchantments[cnt].id;
         i = enc / 10000;
         if (i != 0)
         {

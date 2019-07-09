@@ -1354,7 +1354,7 @@ void apply_general_eating_effect(int cieat)
         {
             break;
         }
-        enc = inv[ci].enchantments[cnt].id;
+        int enc = inv[ci].enchantments[cnt].id;
         if (enc == 36)
         {
             p = rnd(inv[ci].enchantments[cnt].power / 50 + 1) + 1;
